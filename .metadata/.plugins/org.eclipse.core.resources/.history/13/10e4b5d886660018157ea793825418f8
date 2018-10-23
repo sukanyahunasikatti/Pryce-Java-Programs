@@ -1,0 +1,35 @@
+
+
+package Array1;
+
+public class Array2 {
+
+	public static void main(String[] args) {
+		// checking length equals or not
+		String s1="hgdhj";
+		String s2="abdcf";
+		int len=s1.length();
+		System.out.println(s1.equals(s2));
+		// prinng all characters in string
+		System.out.println("printimg thechracter using tochararray   ");
+		for(int i=0;i<s1.length();i++)
+		{
+			System.out.println("  chat at index  " + i  +  "  is   " +  s1.charAt(i));
+			
+		}
+			//convert string to array of chars and print chars
+		char[] ch=s1.toCharArray();
+		System.out.println("printing all the chracters of array uing toCharArray()");
+		for(int j=0;j<ch.length;j++)
+			System.out.println("character at position "+j+" is "+ch[j]);
+			
+			//convert string to uppercase and lowercase and print
+		System.out.println(s1.toUpperCase());
+		System.out.println(s1.toLowerCase());
+// take 2 strings and check if they are equal
+		System.out.println(s2.equals(s1));
+		
+	}
+
+}
+

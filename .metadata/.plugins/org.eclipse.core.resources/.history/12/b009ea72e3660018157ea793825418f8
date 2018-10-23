@@ -1,0 +1,8 @@
+package Array1;
+
+public class factorial {
+	int factorial(int n) {
+		return n;
+		
+	}
+}

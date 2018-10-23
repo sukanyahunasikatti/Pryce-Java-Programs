@@ -1,0 +1,12 @@
+package Array1;
+
+public class Array2 {
+
+	public static void main(String[] args) {
+		String s1="hgdhjsdg";
+		String s2="gfhdsf";
+		System.out.println(s1.equals(s2));
+
+	}
+
+}

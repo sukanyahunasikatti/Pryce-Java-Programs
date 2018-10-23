@@ -1,0 +1,9 @@
+package Array1;
+
+public class Array4 extends factorial {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

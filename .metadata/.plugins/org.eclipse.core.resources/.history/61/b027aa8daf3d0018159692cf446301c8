@@ -1,0 +1,18 @@
+
+public class Hello {
+
+	public static void main(String[] args) {
+String a="sukki",b="sandeep";
+int c=6;
+System.out.println(a+" loves "+b);
+System.out.print(a+a);
+int arr[] = new int[5];
+for (int i=0;i<arr.length;i++) {
+	arr[i] = i+3;
+}
+for (int ans : arr) {
+	System.out.print("\n"+ans);
+}
+	}
+
+}

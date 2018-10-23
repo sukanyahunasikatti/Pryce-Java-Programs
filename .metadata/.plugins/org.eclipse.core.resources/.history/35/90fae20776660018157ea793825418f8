@@ -1,0 +1,26 @@
+package Array1;
+
+public class Array2 {
+
+	public static void main(String[] args) {
+		// Finding the length of the string
+		String s1="abcdef";
+		int len=s1.length();
+		System.out.println("length of string  "+s1+"  is    "+len);
+		
+		// Printing all characters at a time
+		//for(int i=0;i<s1.length();i++) {
+		//System.out.println(s1.charAt(i));
+		//}
+		
+		char[] ch=s1.toCharArray();
+		 //System.out.println("printing the value using the toCharArray()....");
+		   for(int i=0;i<ch.length;i++)
+		   System.out.println("character at position "+i+" is "+ch[i]);
+		    //using enhanced for loop(for-each)
+		   //System.out.println("printing the value using for-each loop");
+		  // for(char c:ch)
+			//   System.out.println(c);
+	}
+
+}

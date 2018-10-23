@@ -1,0 +1,11 @@
+
+public class Hello {
+
+	public static void main(String[] args) {
+String a="sukki",b="sandeep";
+System.out.println(a+" loves "+b);
+System.out.print(a+b);
+int arr[] = new int[5];
+	}
+
+}
